@@ -1,0 +1,22 @@
+{
+  "name": "f3k.tech",
+  "version": "1.0.0",
+  "description": "Freeks personal blog",
+  "main": "index.html",
+  "scripts": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/f3k-tech/f3k.tech.git"
+  },
+  "author": "Freek Olgers",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/f3k-tech/f3k.tech/issues"
+  },
+  "homepage": "https://github.com/f3k-tech/f3k.tech#readme",
+  "dependencies": {
+    "bootstrap": "^5.2.2"
+  }
+}
