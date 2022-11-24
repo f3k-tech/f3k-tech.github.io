@@ -1,3 +1,5 @@
+root: /f3k.tech
+
 collections:
   authors:
     output: true
