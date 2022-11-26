@@ -1,11 +1,12 @@
 categories:
- - programming
- - frameworks
- - testing
- - protocols
-
-
-programming:
+ - Programming
+ - Frameworks
+ - Testing
+ - CI/CD
+ - Protocols
+ - Languages
+ 
+Programming:
   - name: TypeScript
     proficiency: 80
   - name: JavaScript
@@ -13,32 +14,40 @@ programming:
   - name: Python
     proficiency: 70
 
-frameworks:
+Frameworks:
   - name: Quasar
     proficiency: 80
+  - name: Vue.js
+    proficiency: 80
   - name: Jekyll
-    proficiency: 10
+    proficiency: 50
+  
+CI/CD:
+ - name: Gitlab
+   proficiency: 80
+ - name: Github
+   proficiency: 50
 
-protocols:
+Protocols:
   - name: SocketIO
     proficiency: 80
   - name: MQTT
     proficiency: 80
 
-testing:
+Testing:
  - name: Jest
    proficiency: 80
  - name: Cypress
    proficientcy: 80 
 
-languages:
+Languages:
   - name: Dutch
-    proficiency: native
+    proficiency: 100
   - name: English
-    proficiency: C2
+    proficiency: 100
   - name: Turkish
-    proficiency: A1
+    proficiency: 17
   - name: German
-    proficiency: A1
+    proficiency: 17
   - name: French
-    proficiency: A1
+    proficiency: 17
