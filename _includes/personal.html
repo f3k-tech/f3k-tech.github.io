@@ -2,20 +2,32 @@
   src="/assets/pictures/freek_erasmus.jpg"
   class="img-fluid rounded-circle"
 />
-{% for item in site.data.personal.categories %}
+{% for categorie in site.data.personal.categories %}
 
 <table class="table align-middle">
-<tbody>
-{% for item in site.data.personal[item] %}
-<tr><td style="width: 0;">{{ item.name }}</td>
-<td>
-    <div class="progress" style="height: .75rem!important;">
-        <div class="progress-bar bg-info" role="progressbar" aria-label="skills" aria-valuenow="{{ item.proficiency }}" style="width: {{ item.proficiency }}%" aria-valuemin="0" aria-valuemax="100"></div>
-      </div>
-</td>
-</tr>
+    <thead>
+        <tr><th colspan="2">{{ categorie | capitalize }}</th></tr>
+    </thead>
+  <tbody>
+    {% for item in site.data.personal[categorie] %}
+    <tr>
+      <td style="width: 0">{{ item.name }}</td>
+      <td>
+        <div class="progress" style="height: 0.75rem !important">
+          <div
+            class="progress-bar bg-info"
+            role="progressbar"
+            aria-label="skills"
+            aria-valuenow="{{ item.proficiency }}"
+            style="width: {{ item.proficiency }}%"
+            aria-valuemin="0"
+            aria-valuemax="100"
+          ></div>
+        </div>
+      </td>
+    </tr>
 
-{% endfor %}
-</tbody>
+    {% endfor %}
+  </tbody>
 </table>
 {% endfor %}
