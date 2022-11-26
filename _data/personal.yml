@@ -1,7 +1,9 @@
 categories:
  - programming
  - frameworks
+ - testing
  - protocols
+
 
 programming:
   - name: TypeScript
@@ -22,6 +24,12 @@ protocols:
     proficiency: 80
   - name: MQTT
     proficiency: 80
+
+testing:
+ - name: Jest
+   proficiency: 80
+ - name: Cypress
+   proficientcy: 80 
 
 languages:
   - name: Dutch
