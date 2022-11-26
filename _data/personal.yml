@@ -1,11 +1,11 @@
 categories:
- - Programming
- - Frameworks
- - Testing
- - CI/CD
- - Protocols
- - Languages
- 
+  - Programming
+  - Frameworks
+  - Testing
+  - CI/CD
+  - Protocols
+  - Languages
+
 Programming:
   - name: TypeScript
     proficiency: 80
@@ -21,12 +21,18 @@ Frameworks:
     proficiency: 80
   - name: Jekyll
     proficiency: 50
-  
+  - name: Bootstrap
+    proficiency: 50
+  - name: Cordova
+    proficiency: 50
+
 CI/CD:
- - name: Gitlab
-   proficiency: 80
- - name: Github
-   proficiency: 50
+  - name: GitLab CI
+    proficiency: 80
+  - name: GitHub Actions
+    proficiency: 50
+  - name: GIT-CLI
+    proficiency: 100
 
 Protocols:
   - name: SocketIO
@@ -35,10 +41,10 @@ Protocols:
     proficiency: 80
 
 Testing:
- - name: Jest
-   proficiency: 80
- - name: Cypress
-   proficiency: 80 
+  - name: Jest
+    proficiency: 80
+  - name: Cypress
+    proficiency: 80
 
 Languages:
   - name: Dutch
