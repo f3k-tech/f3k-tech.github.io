@@ -2,12 +2,13 @@
   src="/assets/pictures/freek_erasmus.jpg"
   class="img-fluid rounded-circle"
 />
-{% for categorie in site.data.personal.categories %}
-
 <table class="table align-middle">
-    <thead>
-        <tr><th colspan="2">{{ categorie }}</th></tr>
-    </thead>
+  {% for categorie in site.data.personal.categories %}
+  <thead>
+    <tr>
+      <th colspan="2">{{ categorie }}</th>
+    </tr>
+  </thead>
   <tbody>
     {% for item in site.data.personal[categorie] %}
     <tr>
@@ -26,8 +27,7 @@
         </div>
       </td>
     </tr>
-
     {% endfor %}
   </tbody>
+  {% endfor %}
 </table>
-{% endfor %}
