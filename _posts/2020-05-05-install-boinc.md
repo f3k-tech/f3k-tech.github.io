@@ -1,10 +1,8 @@
 ---
 title:  "BOINC from the CLI"
+author: Freek
 tags: CLI linux ubuntu headless boinc
-article_header:
-  type: cover
-  image:
-    src: /pictures/BOINC_logo.png
+cover: /assets/pictures/BOINC_logo.png
 ---
 
 [![My Boinc Stats](https://www.boincstats.com/signature/-1/user/90689675018/sig.png)](https://www.boincstats.com/stats/-1/user/detail/84011c1c1634420bb12e98e44ffe0b7b)

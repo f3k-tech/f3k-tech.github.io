@@ -1,0 +1,21 @@
+<img
+  src="/assets/pictures/freek_erasmus.jpg"
+  class="img-fluid rounded-circle"
+/>
+{% for item in site.data.personal.categories %}
+
+<table class="table align-middle">
+<tbody>
+{% for item in site.data.personal[item] %}
+<tr><td style="width: 0;">{{ item.name }}</td>
+<td>
+    <div class="progress" style="height: .75rem!important;">
+        <div class="progress-bar bg-info" role="progressbar" aria-label="skills" aria-valuenow="{{ item.proficiency }}" style="width: {{ item.proficiency }}%" aria-valuemin="0" aria-valuemax="100"></div>
+      </div>
+</td>
+</tr>
+
+{% endfor %}
+</tbody>
+</table>
+{% endfor %}

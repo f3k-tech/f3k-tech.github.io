@@ -1,0 +1,36 @@
+categories:
+ - programming
+ - frameworks
+ - protocols
+
+programming:
+  - name: TypeScript
+    proficiency: 80
+  - name: JavaScript
+    proficiency: 80
+  - name: Python
+    proficiency: 70
+
+frameworks:
+  - name: Quasar
+    proficiency: 80
+  - name: Jekyll
+    proficiency: 10
+
+protocols:
+  - name: SocketIO
+    proficiency: 80
+  - name: MQTT
+    proficiency: 80
+
+languages:
+  - name: Dutch
+    proficiency: native
+  - name: English
+    proficiency: C2
+  - name: Turkish
+    proficiency: A1
+  - name: German
+    proficiency: A1
+  - name: French
+    proficiency: A1
