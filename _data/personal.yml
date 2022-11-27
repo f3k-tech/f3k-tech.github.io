@@ -31,8 +31,12 @@ CI/CD:
     proficiency: 80
   - name: GitHub Actions
     proficiency: 50
-  - name: GIT-CLI
-    proficiency: 100
+  - name: Weblate
+    proficiency: 90
+  - name: Kubernetes
+    proficiency: 50
+  - name: Docker
+    proficiency: 50
 
 Protocols:
   - name: SocketIO
