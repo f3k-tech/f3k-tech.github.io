@@ -4,6 +4,7 @@ categories:
   - Testing
   - CI/CD
   - Protocols
+  - Localization
   - Languages
 
 Programming:
@@ -31,8 +32,6 @@ CI/CD:
     proficiency: 80
   - name: GitHub Actions
     proficiency: 50
-  - name: Weblate
-    proficiency: 90
   - name: Kubernetes
     proficiency: 50
   - name: Docker
@@ -49,6 +48,14 @@ Testing:
     proficiency: 80
   - name: Cypress
     proficiency: 80
+  - name: unittest
+    proficiency: 80
+
+Localization:
+  - name: i18next
+    proficiency: 80
+  - name: Weblate
+    proficiency: 90
 
 Languages:
   - name: Dutch

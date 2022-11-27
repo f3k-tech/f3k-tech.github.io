@@ -3,35 +3,37 @@ layout: default
 title: About
 ---
 
-{% for categorie in site.data.personal.categories %}
-<div class="card" style="width: 18rem">
-  <table class="table align-middle">
-    <thead>
-      <tr>
-        <th colspan="2">{{ categorie }}</th>
-      </tr>
-    </thead>
-    <tbody>
-      {% for item in site.data.personal[categorie] %}
-      <tr>
-        <td style="width: 0">{{ item.name }}</td>
-        <td>
-          <div class="progress" style="height: 0.75rem !important">
-            <div
-              class="progress-bar bg-info"
-              role="progressbar"
-              aria-label="skills"
-              aria-valuenow="{{ item.proficiency }}"
-              style="width: {{ item.proficiency }}%"
-              aria-valuemin="0"
-              aria-valuemax="100"
-            ></div>
-          </div>
-        </td>
-      </tr>
+<div
+  class="row row-cols-1 row-cols-sm-2 row-cols-md-3 row-cols-lg-4 row-cols-xl-5 g-4"
+>
+  {% for categorie in site.data.personal.categories %}
+  <div class="col">
+    <div class="card text-bg-light mb-3 w-auto">
+      <div class="card-header">{{ categorie }}</div>
+      <table class="table align-middle bg-white">
+        <tbody>
+          {% for item in site.data.personal[categorie] %}
+          <tr>
+            <td style="width: 60%">{{ item.name }}</td>
+            <td>
+              <div class="progress" style="height: 0.75rem !important">
+                <div
+                  class="progress-bar bg-info"
+                  role="progressbar"
+                  aria-label="skills"
+                  aria-valuenow="{{ item.proficiency }}"
+                  style="width: {{ item.proficiency }}%"
+                  aria-valuemin="0"
+                  aria-valuemax="100"
+                ></div>
+              </div>
+            </td>
+          </tr>
 
-      {% endfor %}
-    </tbody>
-  </table>
+          {% endfor %}
+        </tbody>
+      </table>
+    </div>
+  </div>
+  {% endfor %}
 </div>
-{% endfor %}
