@@ -11,7 +11,7 @@
         class="row"
         style="
           height: 20vh;
-          background-image: url({% assign image = site.data.covers | sample %} {{ image.src }});
+          background-image: url({{ page.cover | default: "/assets/img/techno4.jpg" }});
           background-position: center;
           background-size: cover;
         "
